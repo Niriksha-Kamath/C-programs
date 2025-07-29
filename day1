@@ -1,0 +1,73 @@
+Check if entered number is even or odd
+#include<stdio.h>
+int isEvenOdd(int number){
+  return(number%2==0);
+}
+int main(){
+  isEvenOdd(number);
+  return 0;
+}
+-----------------------------------
+Check if entered year is leap year or not
+#include<stdio.h>
+int checkleap(int year){
+  return ((year%4==0 && year%100!=0)||(year%400==0));
+}
+int main(){
+  checkleap(year);
+  return 0;
+}
+------------------------------------
+Write a program to convert temperature from Celsius to Fahrenheit 
+#include<stdio.h>
+int conversion(int celcius){
+  return ((9/5*celcius)+32);
+}
+int main(){
+  conversion(celcius);
+  return 0;
+}
+------------------------------------------------------
+Write a program to calculate the area of Circle
+#include<stdio.h>
+#define pie 3.142
+float Area(int radius){
+  return (pie*radius*radius);
+}
+int main()
+{
+  Area(radius);
+  return 0;
+}
+-------------------------------------------------------
+#include<stdio.h>
+char toLower(char character){
+  if(character>='A' && character<="Z"){
+    return character+32;
+  else
+    return character;
+  }
+int main(){
+    toLower(character);
+    return 0;
+}
+------------------------------------------------
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
